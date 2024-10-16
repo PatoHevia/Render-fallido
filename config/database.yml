@@ -16,6 +16,5 @@ test:
 
 production:
   <<: *default
-  database: howarts_rails_production
-  username: howarts
-  password: <%= ENV['HOWARTS_DATABASE_PASSWORD'] %>
+  # En producción, Render utiliza DATABASE_URL
+  url: <%= ENV['DATABASE_URL'] %>
