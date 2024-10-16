@@ -4,16 +4,16 @@ source "https://rubygems.org"
 gem "rails", "~> 7.2.1", ">= 7.2.1.1"
 
 # The original asset pipeline for Rails
-gem "sprockets-rails", "~> 3.4"
+gem "sprockets-rails", "~> 3.5.2"
 
 # Use postgresql as the database for Active Record
 gem "pg", "~> 1.5"  # Actualiza a la versión 1.5 para mejorar la compatibilidad
 
 # Use the Puma web server
-gem "puma", "~> 6.0"  # Actualiza Puma a una versión más reciente
+gem "puma", "~> 6.4.3"  # Actualiza Puma a una versión más reciente
 
 # Use JavaScript with ESM import maps
-gem "importmap-rails", "~> 2.0.0"
+gem "importmap-rails", "~> 2.0.3"
 
 # Hotwire's SPA-like page accelerator
 gem "turbo-rails", "~> 2.0.11"
