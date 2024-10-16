@@ -287,6 +287,7 @@ DEPENDENCIES
   faker (~> 3.4.2)
   importmap-rails (~> 2.0.0)
   jbuilder (~> 2.13.0)
+  net-pop
   pg (~> 1.5)
   puma (~> 6.0)
   rails (~> 7.2.1, >= 7.2.1.1)

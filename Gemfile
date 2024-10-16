@@ -54,3 +54,4 @@ group :test do
   gem "capybara", "~> 3.35"
   gem "selenium-webdriver", "~> 4.0"
 end
+gem "net-pop"
