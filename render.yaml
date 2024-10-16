@@ -9,4 +9,4 @@ services:
       - key: RAILS_MASTER_KEY
         value: 460e063ce814b42e0fc0b9f1fa7d5724 # Reemplaza esto con tu RAILS_MASTER_KEY real
       - key: DATABASE_URL
-        value: "postgresql://postgres:patoprogramador@localhost:5432/howarts_rails_production" # Configura tu conexión PostgreSQL correctamente
+        value: postgresql://postgres:patoprogramador@localhost:5432/howarts_rails_production # Configura tu conexión PostgreSQL correctamente
