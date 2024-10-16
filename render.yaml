@@ -7,6 +7,6 @@ services:
     startCommand: "bundle exec puma -C config/puma.rb"
     envVars:
       - key: RAILS_MASTER_KEY
-        value: 460e063ce814b42e0fc0b9f1fa7d5724 # Reemplaza esto con tu RAILS_MASTER_KEY real
+        sync: false # Configura esta variable en el panel de Render en lugar de incluirla en este archivo
       - key: DATABASE_URL
-        value: postgresql://postgres:patoprogramador@localhost:5432/howarts_rails_production # Configura tu conexión PostgreSQL correctamente
+        value: postgresql://USERNAME:PASSWORD@HOST:PORT/DATABASE_NAME # Reemplaza con la URL correcta de tu base de datos en Render
