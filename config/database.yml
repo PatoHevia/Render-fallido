@@ -1,20 +1,28 @@
 default: &default
   adapter: postgresql
   encoding: unicode
-  pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
-  username: postgres
-  password: patoinformatico
-  host: localhost
+  pool: 5
 
 development:
   <<: *default
   database: howarts_rails_development
+  username: howarts_rails_2fl3_user
+  password: DVgUhrhX1Ovx97A0eBNms0I5igSLPNB6
+  host: dpg-cs8549m8ii6s73c4e0qg-a
+  port: 5432
 
 test:
   <<: *default
   database: howarts_rails_test
+  username: howarts_rails_2fl3_user
+  password: DVgUhrhX1Ovx97A0eBNms0I5igSLPNB6
+  host: dpg-cs8549m8ii6s73c4e0qg-a
+  port: 5432
 
 production:
   <<: *default
-  # En producción, Render utiliza DATABASE_URL
-  url: <%= ENV['DATABASE_URL'] %>
+  database: howarts_rails_2fl3
+  username: howarts_rails_2fl3_user
+  password: DVgUhrhX1Ovx97A0eBNms0I5igSLPNB6
+  host: dpg-cs8549m8ii6s73c4e0qg-a.oregon-postgres.render.com
+  port: 5432

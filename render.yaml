@@ -3,13 +3,12 @@ services:
     name: howarts_rails
     env: ruby
     plan: free
-    buildCommand: |
-      bundle install
-      bundle exec rake assets:precompile
-    startCommand: |
-      bundle exec puma -C config/puma.rb
+    buildCommand: "bundle install && bundle exec rake assets:precompile && bundle exec rake db:migrate"
+    startCommand: "bundle exec puma -C config/puma.rb"
     envVars:
       - key: RAILS_MASTER_KEY
-        value: 460e063ce814b42e0fc0b9f1fa7d5724  # Asegúrate de colocar tu valor real
+        value: "tu_rails_master_key"
       - key: DATABASE_URL
-        value: postgresql://howarts_rails_2fl3_user:DVgUhrhX1Ovx97A0eBNms0I5igSLPNB6@dpg-cs8549m8ii6s73c4e0qg-a/howarts_rails_2fl3 # Configura tu conexión PostgreSQL aquí
+        value: "postgresql://<DB_USERNAME>:<DB_PASSWORD>@<DB_HOST>:<DB_PORT>/<DB_NAME>"
+      - key: RAILS_ENV
+        value: "production"
