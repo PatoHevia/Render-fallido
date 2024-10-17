@@ -135,7 +135,8 @@ GEM
       date
       net-protocol
     net-pop (0.1.2)
-    net-protocol (0.1.0)
+    net-protocol (0.2.2)
+      timeout
     net-smtp (0.5.0)
       net-protocol
     nio4r (2.7.3)
@@ -259,7 +260,7 @@ DEPENDENCIES
   jbuilder (~> 2.13.0)
   listen (~> 3.7)
   net-pop (= 0.1.2)
-  net-protocol (= 0.1.0)
+  net-protocol (= 0.2.2)
   pg (~> 1.5.8)
   puma (~> 6.4.3)
   rails (~> 7.2.1.1)

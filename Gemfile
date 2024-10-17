@@ -40,6 +40,6 @@ end
 
 # Agrega la gema tzinfo-data para solucionar problemas de zona horaria
 gem 'net-pop', '0.1.2'
-gem 'net-protocol', '0.1.0'
+gem 'net-protocol', '0.2.2'
 
 
