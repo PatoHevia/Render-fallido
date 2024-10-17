@@ -39,7 +39,3 @@ group :test do
 end
 
 # Agrega la gema tzinfo-data para solucionar problemas de zona horaria
-gem 'tzinfo-data'
-gem 'net-pop', '>= 0.1.0'
-gem 'net-imap', '>= 0.5.0'
-gem 'net-smtp', '>= 0.5.0'
