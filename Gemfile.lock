@@ -124,7 +124,6 @@ GEM
     mail (2.8.1)
       mini_mime (>= 0.1.1)
       net-imap
-      net-pop
       net-smtp
     marcel (1.0.4)
     matrix (0.4.2)
@@ -133,12 +132,8 @@ GEM
     msgpack (1.7.3)
     net-imap (0.5.0)
       date
-      net-protocol
-    net-pop (0.1.2)
-    net-protocol (0.2.2)
       timeout
     net-smtp (0.5.0)
-      net-protocol
     nio4r (2.7.3)
     nokogiri (1.16.7-x64-mingw-ucrt)
       racc (~> 1.4)
