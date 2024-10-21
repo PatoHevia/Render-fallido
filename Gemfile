@@ -18,7 +18,7 @@ gem 'jbuilder', '~> 2.13.0'
 gem 'bootsnap', '>= 1.18.4', require: false
 
 # Gemas adicionales
-gem 'faker', '~> 3.4.2'
+gem 'faker', '~> 3.5.1'
 
 group :development, :test do
   gem 'sqlite3', '~> 1.4' # Solo en entornos de desarrollo y prueba
