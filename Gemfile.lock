@@ -95,7 +95,7 @@ GEM
     date (3.3.4)
     drb (2.2.1)
     erubi (1.13.0)
-    faker (3.4.2)
+    faker (3.5.1)
       i18n (>= 1.8.11, < 2)
     ffi (1.17.0-x64-mingw-ucrt)
     ffi (1.17.0-x86_64-linux-gnu)
@@ -254,7 +254,7 @@ DEPENDENCIES
   bootsnap (>= 1.18.4)
   byebug
   capybara (>= 3.26)
-  faker (~> 3.4.2)
+  faker (~> 3.5.1)
   importmap-rails (~> 2.0.3)
   jbuilder (~> 2.13.0)
   listen (~> 3.7)
