@@ -5,7 +5,7 @@ ruby '3.3.3' # Asegúrate de que esta versión coincida con la de Render
 gem 'rails', '~> 7.2.1.1'
 gem 'pg', '~> 1.5.8'  # PostgreSQL en producción
 
-gem 'puma', '~> 6.4.3'
+gem 'puma', '~> 6.5.0'
 gem 'sprockets-rails', '~> 3.5.2'
 
 # Gestión de dependencias front-end y JavaScript
