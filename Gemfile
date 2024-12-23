@@ -9,7 +9,7 @@ gem 'puma', '~> 6.4.3'
 gem 'sprockets-rails', '~> 3.5.2'
 
 # Gestión de dependencias front-end y JavaScript
-gem 'importmap-rails', '~> 2.0.3'
+gem 'importmap-rails', '~> 2.1.0'
 gem 'turbo-rails', '~> 2.0.11'
 gem 'stimulus-rails', '~> 1.3.4'
 gem 'jbuilder', '~> 2.13.0'
